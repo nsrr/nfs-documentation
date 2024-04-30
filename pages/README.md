@@ -28,23 +28,31 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ## Data overview
 
-### Covariate/phenotype datasets (CSV)
-
-The covariate dataset files (nfs-dataset-0.1.0.csv and nfs-harmonized-dataset-0.1.0.csv) contain 110 rows each. The first column (subj_id) is the unique NFS subject identifier that can be linked with PSG signal filenames. 
-
-The dataset columns are described in the accompanying data dictionary files. The variables data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 1=Male, 0=Female), which are described in the domains data dictionary file. 
-
-The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/nfs-data-dictionary). 
-
-The harmonized-dataset contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team to allow ready inter-operability with other NSRR datasets. Key variables include:
-
--	nsrr_sex – Subject sex
--	nsrr_age – Subject age
--	nsrr_bmi – Body mass index (BMI)
-
 ### Polysomnography
 
 Raw signal data are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
+
+### Covariate/phenotype datasets (CSV)
+
+[Covariate CSV files](:files_path:/datasets) contain data on 110 subjects. The first column (subj_id) is the unique NFS subject identifier that can be linked with PSG signal filenames. 
+
+The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 1=Male, 0=Female), which are described in the **domains** data dictionary file. 
+
+The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/nfs-data-dictionary). 
+
+The **harmonized-dataset** contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team to allow ready inter-operability with other NSRR datasets.
+
+<details>
+  <summary>Expand to see the list of key harmonized variables:</summary>
+
+  <table>
+    <tr><td><b>Variable</b></td><td><b>Label</b></td></tr>
+    <tr><td><a href=":variables_path:/nsrr_age">nsrr_age</a></td><td>Subject age</td></tr>
+    <tr><td><a href=":variables_path:/nsrr_sex">nsrr_sex</a></td><td>Subject sex</td></tr> 
+    <tr><td><a href=":variables_path:/nsrr_bmi">nsrr_bmi</a></td><td>Body mass index (BMI)</td></tr> 
+  </table>
+
+</details>  
 
 ## Access and usage restrictions
 
