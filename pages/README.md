@@ -34,7 +34,7 @@ Raw signal data are shared as EDF files using the European Data Format (https://
 
 ### Covariate/phenotype datasets (CSV)
 
-[Covariate CSV files](:files_path:/datasets) contain data on 110 subjects. The first column (subj_id) is the unique NFS subject identifier that can be linked with PSG signal filenames. 
+[Covariate CSV files](:files_path:/datasets) contain data on 110 subjects. The [**subj_id**](:variables_path:/subj_id) variable is the unique NFS subject identifier that can be linked with PSG signal filenames.  
 
 The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 1=Male, 0=Female), which are described in the **domains** data dictionary file. 
 
