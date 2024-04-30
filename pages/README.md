@@ -8,7 +8,23 @@ Alongside the experimental studies, raw polysomnography data was collected. Raw 
 
 ## Methods
 
+### Two-Week Study Protocol
+
+One week prior to the study, participants were required to adhere to a sleep-wake schedule that provided a 9 hour nocturnal sleep opportunity (23:00–08:00). This was verified using wrist-worn actigraphy and was intended for circadian entrainment and for minimizing any effect of prior sleep restriction (SR) on sleep and cognitive performance.
+
+The two-week study protocol was conducted from 2014-2019 in a boarding school after the school year had ended. In the first 3 nights (B1–B3), both SR and control participants had a 9 hour nocturnal sleep opportunity (23:00–08:00) for adaptation and baseline characterization purposes. This was followed by a 7 night manipulation period (M1–M7) in which the SR group had 5 hour (01:00–06:00) and the control group had 9 hour (23:00–08:00) sleep opportunities. The protocol ended with 3 nights of 9 hour recovery sleep (R1–R3: 23:00–08:00) for both groups.
+
+### PSG Collection
+
+Electroencephalography (EEG) was performed using a SOMNOtouch recorder (SOMNOmedics GmbH, Randersacker, Germany) from two channels (C3 and C4 in the international 10–20 system) referenced to the contralateral mastoids. The common ground and reference electrodes were placed at Cz and FPz. Electrooculography (EOG) and submental electromyography (EMG) were also used. Impedance was kept below 5 kΩ for EEG electrodes and below 10 kΩ for EOG and EMG electrodes. Signals were sampled at 256 Hz and filtered between 0.2 and 35 Hz for EEG and between 0.2 and 10 Hz for EOG.
+
+### PSG Scoring
+
+Trained technicians visually scored the sleep data, following criteria set by the American Academy of Sleep Medicine Manual for the Scoring of Sleep and Associated Events. PSG scoring analyses of EDF files were performed using the FASST toolbox (http://www.montefiore.ulg.ac.be/~phillips/FASST.html). EEG signals were band-pass filtered between 0.2 and 25 Hz. Scoring was performed visually by trained technicians following the criteria set by the American Academy of Sleep Medicine Manual for the Scoring of Sleep and Associated Events (2007).
+
 ## Data de-identification
+
+All personally identifiable information (PII) has been removed from the data files by the NSRR team.
 
 ## Data overview
 
