@@ -2,7 +2,7 @@
 
 The Need for Sleep Study (NFS) was a National Medical Research Council, Singapore National Research Foundation, Singapore and Far East Organization sponsored study that relied on a parallel group design which analyzed the effects of sleep restriction (7 nights of 5 hour time in bed [TIB]) on cognitive performance, subjective sleepiness, and mood in healthy 15-19 year adolescents. This study was conducted from 2010-2019 and included polysomnography data collection and actigraphy collection.
 
-The NFS dataset includes 4 protocols. All the protocols were conducted during the 15-day school vacation period. The NFS1 and NFS2 protocols were conducted from 2014 to 2015. NFS4 was conducted during the vacation period of 2017, and NFS5 was conducted during the same period in 2019. All protocols had similar participant counts: NFS1 had 60 participants, NFS2 had 57 participants, NFS4 had 58 participants, and NFS5 had 59 participants. During these 15-day study periods, a series of experimental studies aimed at characterizing adolescents’ cognitive functions under different sleep manipulations were conducted.
+The NFS dataset includes 4 protocols. All the protocols were conducted during the 15-day school vacation period. The NFS1 and NFS2 protocols were conducted from 2014 to 2015. NFS4 was conducted during the vacation period of 2017, and NFS5 was conducted during the same period in 2019. All protocols had similar participant counts: NFS1 had 60 participants, NFS2 had 57 participants, NFS4 had 58 participants, and NFS5 had 59 participants. During these 15-day study periods, a series of experimental studies aimed at characterizing adolescents' cognitive functions under different sleep manipulations were conducted.
 
 Alongside the experimental studies, raw polysomnography data was collected. Raw PSG data was collected using a SOMNOtouch recorder (SOMNOmedics GmbH, Randersacker, Germany) from two channels (C3 and C4 in the international 10–20 system).
 
@@ -30,7 +30,7 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ### Polysomnography
 
-Raw signal data are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
+[Raw signal data](:files_path:/original) are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
 
 ### Covariate/phenotype datasets (CSV)
 
@@ -62,9 +62,23 @@ The NFS dataset is only available for non-commercial use.
 
 When using this dataset, users must cite the following:
 
->[Lo JC, Ong JL, Leong RL, Gooley JJ, Chee MW. Cognitive Performance, Sleepiness, and Mood in Partially Sleep Deprived Adolescents: The Need for Sleep Study. Sleep. 2016 Mar 1;39(3):687-98. doi: 10.5665/sleep.5552. PMID: 26612392; PMCID: PMC4763363.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4763363/)
->
 >[Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
+
+When using data from NFS1, users must cite the following:
+
+>[Lo JC, Ong JL, Leong RL, Gooley JJ, Chee MW. Cognitive Performance, Sleepiness, and Mood in Partially Sleep Deprived Adolescents: The Need for Sleep Study. Sleep. 2016 Mar 1;39(3):687-98. doi: 10.5665/sleep.5552. PMID: 26612392; PMCID: PMC4763363.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4763363/)
+
+When using data from NFS2, users must cite the following:
+
+>[Lo JC, Lee SM, Teo LM, Lim J, Gooley JJ, Chee MW. Neurobehavioral Impact of Successive Cycles of Sleep Restriction With and Without Naps in Adolescents. Sleep. 2017 Feb 1;40(2):zsw042. doi: 10.1093/sleep/zsw042. PMID: 28364507; PMCID: PMC5806570.](https://pubmed.ncbi.nlm.nih.gov/28364507/)
+
+When using data from NFS4, users must cite the following:
+
+>[Lo JC, Twan DCK, Karamchedu S, Lee XK, Ong JL, Van Rijn E, Gooley JJ, Chee MWL. Differential effects of split and continuous sleep on neurobehavioral function and glucose tolerance in sleep-restricted adolescents. Sleep. 2019 May 1;42(5):zsz037. doi: 10.1093/sleep/zsz037. PMID: 30753648; PMCID: PMC6519912.](https://pubmed.ncbi.nlm.nih.gov/30753648/)
+
+When using data from NFS5, users must cite the following:
+
+>[Lo JC, Leong RLF, Ng ASC, Jamaluddin SA, Ong JL, Ghorbani S, Lau T, Chee NIYN, Gooley JJ, Chee MWL. Cognitive effects of split and continuous sleep schedules in adolescents differ according to total sleep opportunity. Sleep. 2020 Dec 14;43(12):zsaa129. doi: 10.1093/sleep/zsaa129. PMID: 32619240; PMCID: PMC8061132.](https://pubmed.ncbi.nlm.nih.gov/32619240/)
 
 Users must include the following text in any Acknowledgements:
 
