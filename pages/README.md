@@ -37,7 +37,7 @@ Files are separated into folders by NFS protocol number. File names begin with t
 - NFS4 Protocol: Figure 1A of https://academic.oup.com/sleep/article/42/5/zsz037/5316239 (PSG (6.5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)       
 - NFS5 Protocol: Figure 1 of https://academic.oup.com/sleep/article/43/12/zsaa129/5867089 (PSG (8h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)
 
-[Sleep staging files](:files_path:/original/Sleep%20Scores) are available. Staging indications begin from the start of the EDF recording. The stage coding is as follows:
+[Sleep staging files](:files_path:/original/Sleep Scores) are available. Staging indications begin from the start of the EDF recording. The stage coding is as follows:
 
 - 0 - Wake
 - 1 - N1 Sleep
