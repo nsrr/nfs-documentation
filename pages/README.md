@@ -30,14 +30,21 @@ All personally identifiable information (PII) has been removed from the data fil
 
 [Raw signal data](:files_path:/original) are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
 
-Files are separated into folders by NFS protocol number. Files begin with the NFS subject identifier ([**subj_id**](:variables_path:/subj_id)). The arrangement of files within each protocol is described as follows:
+Files are separated into folders by NFS protocol number. File names begin with the NFS subject identifier ([**subj_id**](:variables_path:/subj_id)). The arrangement of files within each protocol is described as follows:
 
 - NFS1 Protocol: Figure 1A of https://academic.oup.com/sleep/article/39/3/687/2454041 (PSG (Control group) conducted on B1, B3, M1, M3, M5, R1, R3, corresponding to _D1 to _D7 of PSG dataset)
 - NFS2 Protocol: Figure 1A of https://academic.oup.com/sleep/article/40/2/zsw042/2732007 (PSG (5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21, corresponding to _(1) to _(9) of PSG dataset) 
 - NFS4 Protocol: Figure 1A of https://academic.oup.com/sleep/article/42/5/zsz037/5316239 (PSG (6.5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)       
 - NFS5 Protocol: Figure 1 of https://academic.oup.com/sleep/article/43/12/zsaa129/5867089 (PSG (8h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)
 
-Sleep staging...
+[Sleep staging files](:files_path:/original/Sleep%20Scores) are available. Staging indications begin from the start of the EDF recording. The stage coding is as follows:
+
+- 0 - Wake
+- 1 - N1 Sleep
+- 2 - N2 Sleep
+- 3 - N3 Sleep
+- 5 - REM Sleep
+- 7 - Unscorable
 
 ### Covariate/phenotype datasets (CSV)
 
