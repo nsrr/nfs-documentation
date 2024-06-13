@@ -1,18 +1,16 @@
 ## About
 
-The Need for Sleep Study (NFS) was a National Medical Research Council, Singapore National Research Foundation, Singapore and Far East Organization sponsored study that relied on a parallel group design which analyzed the effects of sleep restriction (7 nights of 5 hour time in bed [TIB]) on cognitive performance, subjective sleepiness, and mood in healthy 15-19 year adolescents. This study was conducted from 2010-2019 and included polysomnography data collection and actigraphy collection.
+The [Need For Sleep (NFS) study](https://www.needforsleep.org/) was a National Medical Research Council, Singapore National Research Foundation, Singapore and Far East Organization sponsored study that relied on a parallel group design which analyzed the effects of sleep restriction (7 nights of 5 hour time in bed [TIB]) on cognitive performance, subjective sleepiness, and mood in healthy 15-19 year-old adolescents. This study was conducted from 2010-2019 and included polysomnography, actigraphy, and questionnaire data collection.
 
 The NFS dataset includes 4 protocols. All the protocols were conducted during the 15-day school vacation period. The NFS1 and NFS2 protocols were conducted from 2014 to 2015. NFS4 was conducted during the vacation period of 2017, and NFS5 was conducted during the same period in 2019. All protocols had similar participant counts: NFS1 had 60 participants, NFS2 had 57 participants, NFS4 had 58 participants, and NFS5 had 59 participants. During these 15-day study periods, a series of experimental studies aimed at characterizing adolescents' cognitive functions under different sleep manipulations were conducted.
 
-Alongside the experimental studies, raw polysomnography data was collected. Raw PSG data was collected using a SOMNOtouch recorder (SOMNOmedics GmbH, Randersacker, Germany) from two channels (C3 and C4 in the international 10–20 system).
+The NSRR deposition only includes data on half of the subjects across the NFS protocols. The included subjects are: NFS (Control group); NFS2 (5h group); NFS4 (6.5h group); and NFS5 (8h group). Additional data are available upon request. Please contact Ju Lynn from the NFS team for more information.
 
 ## Methods
 
 ### Two-Week Study Protocol
 
-One week prior to the study, participants were required to adhere to a sleep-wake schedule that provided a 9 hour nocturnal sleep opportunity (23:00–08:00). This was verified using wrist-worn actigraphy and was intended for circadian entrainment and for minimizing any effect of prior sleep restriction (SR) on sleep and cognitive performance.
-
-The two-week study protocol was conducted from 2014-2019 in a boarding school after the school year had ended. In the first 3 nights (B1–B3), both SR and control participants had a 9 hour nocturnal sleep opportunity (23:00–08:00) for adaptation and baseline characterization purposes. This was followed by a 7 night manipulation period (M1–M7) in which the SR group had 5 hour (01:00–06:00) and the control group had 9 hour (23:00–08:00) sleep opportunities. The protocol ended with 3 nights of 9 hour recovery sleep (R1–R3: 23:00–08:00) for both groups.
+One week prior to the study, participants were required to adhere to a sleep-wake schedule that provided a 9-hour nocturnal sleep opportunity (23:00–08:00). This was verified using wrist-worn actigraphy and was intended for circadian entrainment and for minimizing any effect of prior sleep restriction (SR) on sleep and cognitive performance.
 
 ### PSG Collection
 
@@ -32,9 +30,18 @@ All personally identifiable information (PII) has been removed from the data fil
 
 [Raw signal data](:files_path:/original) are shared as EDF files using the European Data Format (https://www.edfplus.info/). 
 
+Files are separated into folders by NFS protocol number. Files begin with the NFS subject identifier ([**subj_id**](:variables_path:/subj_id)). The arrangement of files within each protocol is described as follows:
+
+- NFS1 Protocol: Figure 1A of https://academic.oup.com/sleep/article/39/3/687/2454041 (PSG (Control group) conducted on B1, B3, M1, M3, M5, R1, R3, corresponding to _D1 to _D7 of PSG dataset)
+- NFS2 Protocol: Figure 1A of https://academic.oup.com/sleep/article/40/2/zsw042/2732007 (PSG (5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21, corresponding to _(1) to _(9) of PSG dataset) 
+- NFS4 Protocol: Figure 1A of https://academic.oup.com/sleep/article/42/5/zsz037/5316239 (PSG (6.5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)       
+- NFS5 Protocol: Figure 1 of https://academic.oup.com/sleep/article/43/12/zsaa129/5867089 (PSG (8h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)
+
+Sleep staging...
+
 ### Covariate/phenotype datasets (CSV)
 
-[Covariate CSV files](:files_path:/datasets) contain data on 110 subjects. The [**subj_id**](:variables_path:/subj_id) variable is the unique NFS subject identifier that can be linked with PSG signal filenames.  
+[Covariate CSV files](:files_path:/datasets) contain data on 110 subjects. The [**subj_id**](:variables_path:/subj_id) variable is the unique NFS subject identifier that can be linked with PSG signal filenames. The NFS protocol (NFS, NFS2, NFS4, NFS5) is indicated at the beginning of the **subj_id**.
 
 The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 1=Male, 0=Female), which are described in the **domains** data dictionary file. 
 
@@ -86,12 +93,13 @@ Users must include the following text in any Acknowledgements:
 
 ## Changelog
 
-*May 2024*
+*June 2024*
 
 - Make NFS dataset available for data requests
 
 ## References
 
+- Need For Sleep website: https://www.needforsleep.org/
 - NFS GitHub Documentation: https://github.com/nsrr/nfs-documentation
 - NFS GitHub Data Dictionary: https://github.com/nsrr/nfs-data-dictionary
 
