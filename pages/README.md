@@ -4,7 +4,7 @@ The [Need For Sleep (NFS) study](https://www.needforsleep.org/) was a National M
 
 The NFS dataset includes 4 protocols. All the protocols were conducted during the 15-day school vacation period. The NFS1 and NFS2 protocols were conducted from 2014 to 2015. NFS4 was conducted during the vacation period of 2017, and NFS5 was conducted during the same period in 2019. All protocols had similar participant counts: NFS1 had 60 participants, NFS2 had 57 participants, NFS4 had 58 participants, and NFS5 had 59 participants. During these 15-day study periods, a series of experimental studies aimed at characterizing adolescents' cognitive functions under different sleep manipulations were conducted.
 
-The NSRR deposition only includes data on half of the subjects across the NFS protocols. The included subjects are: NFS (Control group); NFS2 (5h group); NFS4 (6.5h group); and NFS5 (8h group). Additional data are available upon request. Please contact Ju Lynn from the NFS team for more information.
+The NSRR deposition only includes data on half of the subjects across the NFS protocols. The included subjects are: NFS (Control group); NFS2 (5h group); NFS4 (6.5h group); and NFS5 (8h group). Additional data are available upon request. Please contact Ju Lynn (julynn.ong@nus.edu.sg) from the NFS team for more information or to request additional data.
 
 ## Methods
 
@@ -37,7 +37,7 @@ Files are separated into folders by NFS protocol number. File names begin with t
 - NFS4 Protocol: Figure 1A of https://academic.oup.com/sleep/article/42/5/zsz037/5316239 (PSG (6.5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)       
 - NFS5 Protocol: Figure 1 of https://academic.oup.com/sleep/article/43/12/zsaa129/5867089 (PSG (8h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)
 
-[Sleep staging files](:files_path:/original/Sleep Scores) are available. Staging indications begin from the start of the EDF recording. The stage coding is as follows:
+[Sleep staging data](:files_path:/original/Sleep Scores) are shared as CSV files. Staging indications begin from the start of the EDF recording in 30-second epochs. The stage codes are as follows:
 
 - 0 - Wake
 - 1 - N1 Sleep
