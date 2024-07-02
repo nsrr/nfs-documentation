@@ -1,8 +1,8 @@
 ## About
 
-The [Need For Sleep (NFS) study](https://www.needforsleep.org/) was a National Medical Research Council, Singapore National Research Foundation, Singapore and Far East Organization sponsored study that relied on a parallel group design which analyzed the effects of sleep restriction (7 nights of 5 hour time in bed [TIB]) on cognitive performance, subjective sleepiness, and mood in healthy 15-19 year-old adolescents. This study was conducted from 2010-2019 and included polysomnography, actigraphy, and questionnaire data collection.
+The [Need For Sleep (NFS) study](https://www.needforsleep.org/) was a National Medical Research Council, Singapore National Research Foundation, Singapore and Far East Organization sponsored study that relied on a parallel group design which analyzed the effects of sleep restriction (7 nights of 5 hour time in bed [TIB]) on cognitive performance, subjective sleepiness, and mood in healthy 15-19 year-old adolescents. This study was conducted from 2014-2019 and included polysomnography, actigraphy, and questionnaire data collection.
 
-The NFS dataset includes 4 protocols. All the protocols were conducted during the 15-day school vacation period. The NFS1 and NFS2 protocols were conducted from 2014 to 2015. NFS4 was conducted during the vacation period of 2017, and NFS5 was conducted during the same period in 2019. All protocols had similar participant counts: NFS1 had 60 participants, NFS2 had 57 participants, NFS4 had 58 participants, and NFS5 had 59 participants. During these 15-day study periods, a series of experimental studies aimed at characterizing adolescents' cognitive functions under different sleep manipulations were conducted.
+The NFS dataset includes 4 protocols. Each of the ~2-week protocols were conducted during the school vacation period. The NFS1, NFS2, NFS4 and NFS5 protocols were conducted during the vacation periods of 2014, 2015, 2017 and 2019 respectively. All protocols had similar participant counts: NFS1 had 56 participants, NFS2 had 57 participants, NFS4 had 58 participants, and NFS5 had 53 participants. During these 15-day study periods, a series of experimental studies aimed at characterizing adolescents' cognitive functions under different sleep manipulations were conducted.
 
 The NSRR deposition only includes data on half of the subjects across the NFS protocols. The included subjects are: NFS (Control group); NFS2 (5h group); NFS4 (6.5h group); and NFS5 (8h group). Additional data are available upon request. Please contact Ju Lynn Ong (julynn.ong@nus.edu.sg) from the NFS team for more information or to request additional data.
 
@@ -14,7 +14,7 @@ One week prior to the study, participants were required to adhere to a sleep-wak
 
 ### PSG Collection
 
-Electroencephalography (EEG) was performed using a SOMNOtouch recorder (SOMNOmedics GmbH, Randersacker, Germany) from two channels (C3 and C4 in the international 10–20 system) referenced to the contralateral mastoids. The common ground and reference electrodes were placed at Cz and FPz. Electrooculography (EOG) and submental electromyography (EMG) were also used. Impedance was kept below 5 kΩ for EEG electrodes and below 10 kΩ for EOG and EMG electrodes. Signals were sampled at 256 Hz and filtered between 0.2 and 35 Hz for EEG and between 0.2 and 10 Hz for EOG.
+Electroencephalography (EEG) was performed using a SOMNOtouch recorder (SOMNOmedics GmbH, Randersacker, Germany) from two channels (C3 and C4 in the international 10–20 system) referenced to the contralateral mastoids. The common ground and reference electrodes were placed at FPz and Cz. Electrooculography (EOG) and submental electromyography (EMG) were also used. Impedance was kept below 5 kΩ for EEG electrodes and below 10 kΩ for EOG and EMG electrodes. Signals were sampled at 256 Hz and filtered between 0.2 and 35 Hz for EEG and between 0.2 and 10 Hz for EOG.
 
 ### PSG Scoring
 
@@ -32,7 +32,7 @@ All personally identifiable information (PII) has been removed from the data fil
 
 Files are separated into folders by NFS protocol number. File names begin with the NFS subject identifier ([**subj_id**](:variables_path:/subj_id)). The arrangement of files within each protocol is described as follows:
 
-- NFS1 Protocol: Figure 1A of https://academic.oup.com/sleep/article/39/3/687/2454041 (PSG (Control group) conducted on B1, B3, M1, M3, M5, R1, R3, corresponding to _D1 to _D7 of PSG dataset)
+- NFS1 Protocol: Figure 1A of https://academic.oup.com/sleep/article/39/3/687/2454041 (PSG (Control group) conducted on B1, B3, M1, M4, M7, R1, R3, corresponding to _D1 to _D7 of PSG dataset)
 - NFS2 Protocol: Figure 1A of https://academic.oup.com/sleep/article/40/2/zsw042/2732007 (PSG (5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21, corresponding to _(1) to _(9) of PSG dataset) 
 - NFS4 Protocol: Figure 1A of https://academic.oup.com/sleep/article/42/5/zsz037/5316239 (PSG (6.5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)       
 - NFS5 Protocol: Figure 1 of https://academic.oup.com/sleep/article/43/12/zsaa129/5867089 (PSG (8h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)
