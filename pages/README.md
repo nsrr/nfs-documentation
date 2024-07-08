@@ -100,7 +100,7 @@ Users must include the following text in any Acknowledgements:
 
 ## Changelog
 
-*June 2024*
+*July 2024*
 
 - Make NFS dataset available for data requests
 
