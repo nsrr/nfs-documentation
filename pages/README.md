@@ -37,6 +37,7 @@ Files are separated into folders by NFS protocol number. File names begin with t
 - NFS4 Protocol: Figure 1A of https://academic.oup.com/sleep/article/42/5/zsz037/5316239 (PSG (6.5h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)       
 - NFS5 Protocol: Figure 1 of https://academic.oup.com/sleep/article/43/12/zsaa129/5867089 (PSG (8h group) conducted on B1, B3, M11, M13, M15, R11, M21, M23, R21 in corresponding PSG subfolder)
 
+<!--
 [Sleep staging data](:files_path:/original/Sleep Scores) are shared as CSV files. Staging indications begin from the start of the EDF recording in 30-second epochs. The stage codes are as follows:
 
 - 0 - Wake
@@ -45,6 +46,7 @@ Files are separated into folders by NFS protocol number. File names begin with t
 - 3 - N3 Sleep
 - 5 - REM Sleep
 - 7 - Unscorable
+-->
 
 ### Covariate/phenotype datasets (CSV)
 
@@ -99,6 +101,10 @@ Users must include the following text in any Acknowledgements:
 > The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
 
 ## Changelog
+
+*November 2025*
+
+- Sleep scores files removed at the request of the data contributor
 
 *July 2024*
 
